@@ -1,8 +1,8 @@
 package com.jansparta.sampletest.domain.member
 
 import com.jansparta.sampletest.domain.common.QueryDslConfig
+import com.jansparta.sampletest.domain.member.repository.MemberRepository
 import com.jansparta.sampletest.domain.member.type.MemberSearchType
-import io.kotest.matchers.should
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
